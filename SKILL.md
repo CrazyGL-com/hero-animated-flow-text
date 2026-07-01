@@ -3,7 +3,7 @@ name: animated-flow-text
 description: "Each word rides its own sine wave with a per-letter phase offset — the line reads like a banner caught in a slow current."
 metadata:
   author: "@ybouane"
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 ## How To Use This Skill

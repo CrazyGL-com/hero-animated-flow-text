@@ -1,7 +1,7 @@
 {
 	"name": "@crazygl/hero-animated-flow-text",
-	"version": "0.1.0",
-	"description": "Animated Flow Text — flowing kinetic phrase",
+	"version": "0.1.1",
+	"description": "Animated Flow Text — Each word rides its own sine wave with a per-letter phase offset — the line reads like a banner caught in a slow current. A customizable CrazyGL animated hero section — WebGL, React, drop-in.",
 	"type": "module",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
@@ -21,7 +21,7 @@
 		"LICENSE"
 	],
 	"dependencies": {
-		"@crazygl/core": "^0.1.0"
+		"@crazygl/core": "^0.1.1"
 	},
 	"peerDependencies": {
 		"react": ">=18",
@@ -36,5 +36,27 @@
 	},
 	"publishConfig": {
 		"access": "public"
+	},
+	"keywords": [
+		"flow",
+		"kinetic",
+		"typography",
+		"animated-flow-text",
+		"crazygl",
+		"hero",
+		"hero-section",
+		"webgl",
+		"react",
+		"animation",
+		"ui",
+		"landing-page",
+		"interactive",
+		"frontend",
+		"component",
+		"canvas",
+		"three"
+	],
+	"bugs": {
+		"url": "https://github.com/crazygl-com/hero-animated-flow-text/issues"
 	}
 }
