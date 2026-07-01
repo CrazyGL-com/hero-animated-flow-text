@@ -1,0 +1,165 @@
+{
+	"name": "Animated Flow Text",
+	"slug": "animated-flow-text",
+	"version": 1,
+	"description": "Each word rides its own sine wave with a per-letter phase offset — the line reads like a banner caught in a slow current.",
+	"dependencies": [],
+	"authorName": "@ybouane",
+	"authorUrl": "https://x.com/ybouane",
+	"tags": [
+		"flow",
+		"kinetic",
+		"typography"
+	],
+	"category": "Typography",
+	"featured": false,
+	"dateCreated": 1781222400000,
+	"poster": "/images/heroes/animated-flow-text.png",
+	"install": {
+		"package": "@crazygl/hero-animated-flow-text"
+	},
+	"config": {
+		"managedWidth": true,
+		"innerWidth": 1200,
+		"managedHeight": true,
+		"defaultHeight": 720,
+		"styleInheritance": "none",
+		"usesCanvas": false,
+		"usesWebGL": false,
+		"usesThree": false,
+		"pointerTracking": false,
+		"resizeTracking": true,
+		"scrollTracking": false,
+		"supportsImages": false,
+		"supportsTransparency": true,
+		"interactive": false,
+		"supportsFontCustomization": true,
+		"interactivityModes": [
+			"none"
+		],
+		"interactivity": "none"
+	},
+	"customizer": {
+		"sections": [
+			{
+				"label": "Content",
+				"fields": [
+					{
+						"id": "heading",
+						"label": "Heading",
+						"type": "text",
+						"default": "the current carries the type"
+					},
+					{
+						"id": "subheading",
+						"label": "Subheading",
+						"type": "textarea",
+						"default": ""
+					}
+				]
+			},
+			{
+				"label": "Flow",
+				"fields": [
+					{
+						"id": "amplitude",
+						"label": "Amplitude (px)",
+						"type": "slider",
+						"default": 18,
+						"min": 0,
+						"max": 60,
+						"step": 1,
+						"unit": "px"
+					},
+					{
+						"id": "wavelength",
+						"label": "Wavelength (chars)",
+						"type": "slider",
+						"default": 4,
+						"min": 1,
+						"max": 20,
+						"step": 0.5
+					},
+					{
+						"id": "speed",
+						"label": "Flow speed",
+						"type": "slider",
+						"default": 0.9,
+						"min": 0.05,
+						"max": 4,
+						"step": 0.05
+					},
+					{
+						"id": "rotateMax",
+						"label": "Tilt (deg)",
+						"type": "slider",
+						"default": 6,
+						"min": 0,
+						"max": 25,
+						"step": 0.5,
+						"unit": "°"
+					}
+				]
+			},
+			{
+				"label": "Typography",
+				"fields": [
+					{
+						"id": "textColor",
+						"label": "Text colour",
+						"type": "color",
+						"default": "#ffffff"
+					},
+					{
+						"id": "subColor",
+						"label": "Subheading colour",
+						"type": "color",
+						"default": "#9aa1ad"
+					},
+					{
+						"id": "fontSize",
+						"label": "Font size",
+						"type": "slider",
+						"default": 88,
+						"min": 20,
+						"max": 200,
+						"step": 1,
+						"unit": "px"
+					},
+					{
+						"id": "headingFontFamily",
+						"label": "Font",
+						"type": "font",
+						"default": "Inter"
+					},
+					{
+						"id": "headingFontWeight",
+						"label": "Weight",
+						"type": "slider",
+						"default": 700,
+						"min": 100,
+						"max": 900,
+						"step": 100
+					}
+				]
+			},
+			{
+				"label": "Backdrop",
+				"fields": [
+					{
+						"id": "transparentBackground",
+						"label": "Transparent background",
+						"type": "toggle",
+						"default": false
+					},
+					{
+						"id": "bgColor",
+						"label": "Background",
+						"type": "color",
+						"default": "#0a0c14"
+					}
+				]
+			}
+		]
+	}
+}

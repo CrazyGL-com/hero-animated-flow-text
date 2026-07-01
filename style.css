@@ -1,0 +1,20 @@
+crazygl-hero[data-crazygl="animated-flow-text"] crazygl-content { position: absolute; inset: 0; z-index: 1; display: grid; place-items: center; padding: 24px; }
+crazygl-hero[data-crazygl="animated-flow-text"] .crazygl-aft-wrap { text-align: center; }
+crazygl-hero[data-crazygl="animated-flow-text"] .crazygl-aft-h {
+	line-height: 1.15;
+	letter-spacing: -0.02em;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+	max-width: 96%;
+	gap: 0.25em;
+}
+/* Each word is a single non-wrapping flex item; flex-wrap on the row
+   only breaks BETWEEN words. */
+crazygl-hero[data-crazygl="animated-flow-text"] .crazygl-aft-w {
+	display: inline-flex;
+	flex-wrap: nowrap;
+}
+crazygl-hero[data-crazygl="animated-flow-text"] .crazygl-aft-c { display: inline-block; min-width: 0.18em; will-change: transform; transition: none; }
+crazygl-hero[data-crazygl="animated-flow-text"] .crazygl-aft-sub { margin-top: 14px; font-size: clamp(14px, 1.4vw, 18px); }
